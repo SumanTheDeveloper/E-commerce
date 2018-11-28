@@ -55,7 +55,7 @@ public class ProductController
 				return "redirect:/all/getallproducts";
 		}
 
-		@RequestMapping(value="/all/AddProduct", method=RequestMethod.GET)
+		@RequestMapping(value="/admin/AddProduct", method=RequestMethod.GET)
 		public ModelAndView getProductForm(@ModelAttribute("AddProduct") Product product)
 		{
 				System.out.println("Add");	
